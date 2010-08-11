@@ -20,7 +20,7 @@ directly from pypi by running the following command::
 
     $ easy_install -U bitbucket-batch
 
-Otherwise you can download bitbucket-batch and install it directly from 
+Otherwise you can download ``bitbucket-batch`` and install it directly from 
 source::
 
     $ python setup.py install
