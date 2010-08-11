@@ -6,7 +6,7 @@ setup(
     version = __import__("bitbucket_batch").__version__,
     author = "Stephen McDonald",
     author_email = "stephen.mc@gmail.com",
-    description = "A tool for bulk updating access to bitbucket repos.",
+    description = "A tool for bulk updating access to bitbucket.org repos.",
     license = "BSD",
     url = "http://bitbucket.org/stephenmcd/bitbucket-batch/",
     py_modules = ["bitbucket_batch",],
