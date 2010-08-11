@@ -35,10 +35,10 @@ can be run in the following format::
 
 Each of the required arguments are:
 
-  * repo_owner: The Bitbucket username for the owner of the repositories the bulk update will be made to.
-  * operation: The operation to apply which is either ``add`` or ``remove``.
-  * role: The role to use for the operation which is either ``reader``, ``writer`` or ``admin``.
-  * user: The Bitbucket username that the operation will be made for.
+  * ``repo_owner``: The Bitbucket username for the owner of the repositories the bulk update will be made to.
+  * ``operation``: The operation to apply which is either ``add`` or ``remove``.
+  * ``role``: The role to use for the operation which is either ``reader``, ``writer`` or ``admin``.
+  * ``user``: The Bitbucket username that the operation will be made for.
   
 For example, to add the user ``stephenmcd`` as a ``writer`` to all 
 repositories owned by the user ``citrus``, the command would be::
