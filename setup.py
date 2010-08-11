@@ -7,6 +7,7 @@ setup(
     author = "Stephen McDonald",
     author_email = "stephen.mc@gmail.com",
     description = "A tool for bulk updating access to bitbucket.org repos.",
+    long_description = open("README.rst").read(),
     license = "BSD",
     url = "http://bitbucket.org/stephenmcd/bitbucket-batch/",
     py_modules = ["bitbucket_batch",],
