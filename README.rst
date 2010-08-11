@@ -3,13 +3,13 @@
 bitbucket-batch
 ===============
 
-bitbucket-batch is a command-line tool for making bulk access updates to 
+``bitbucket-batch`` is a command-line tool for making bulk access updates to 
 `Bitbucket`_ repositories. It is useful in a corporate team situation where 
 a single company account exists for managing private repositories with each 
 team member having their own account with write access to these repositories.
 When a new member joins or leaves the team, the process of manually adding or 
 removing write access to all of the company's repositories can be tedious.
-bitbucket-batch allows you to make access updates to all of the company's 
+``bitbucket-batch`` allows you to make access updates to all of the company's 
 repositories in a single command.
 
 Installation
