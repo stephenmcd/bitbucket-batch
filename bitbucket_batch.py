@@ -7,7 +7,7 @@ from getpass import getpass
 from urllib import urlencode
 
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 LOGIN_URL = "http://bitbucket.org/account/signin/"
 ADMIN_URL = "http://bitbucket.org/%s/admin"
 OPS = ("add", "remove")
