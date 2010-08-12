@@ -6,11 +6,13 @@ from cookielib import CookieJar
 from getpass import getpass
 from urllib import urlencode
 
+
 __version__ = "0.1.1"
 LOGIN_URL = "http://bitbucket.org/account/signin/"
 ADMIN_URL = "http://bitbucket.org/%s/admin"
 OPS = ("add", "remove")
 ROLES = ("reader", "writer", "admin")
+
 
 def main():
 
@@ -39,8 +41,11 @@ def main():
     for line in repos_html.split("\n"):
         if "href" in line:
             repo = line.split("href=")[1].split(">")[0].strip('"').strip("/")
-            print "Updating %s" % repo
-            urllib2.urlopen(ADMIN_URL % repo, urlencode(action))
-
+            try:
+                urllib2.urlopen(ADMIN_URL % repo, urlencode(action))
+                print "Updating %s" % repo
+            except urllib2.HTTPError, e:
+                print "Error updating %s (%s)" % (repo, e)
+                
 if __name__ == "__main__":
     main()
