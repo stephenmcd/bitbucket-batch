@@ -1,6 +1,6 @@
 from setuptools import setup
- 
- 
+
+
 setup(
     name = "bitbucket-batch",
     version = __import__("bitbucket_batch").__version__,
@@ -15,6 +15,7 @@ setup(
         [console_scripts]
         bitbucket-batch=bitbucket_batch:main
     """,
+    install_requires=["sphinx-me",],
     classifiers = [
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
