@@ -1,7 +1,8 @@
-
 ===============
 bitbucket-batch
 ===============
+
+Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
 
 ``bitbucket-batch`` is a command-line tool for making bulk access updates to 
 `Bitbucket`_ repositories. It is useful in a corporate team situation where 
